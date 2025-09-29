@@ -2,12 +2,13 @@
 
 All notable changes to **Business Input Data Source** will be documented in this file. This changelog follows the [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) format and adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html). Thank you for using our plugin! For any questions or contributions, feel free to visit our [GitHub repository](https://github.com/VolkovLabs/business-input).
 
-## [5.1.0] - Unreleased
+## [5.1.0] - 2025-09-29
 
 ### Changed
 
-- Updated ESLint configuration ([#104](https://github.com/VolkovLabs/business-input/pull/104)).
-- Updated LLM behavior and plugin not found ([#106](https://github.com/VolkovLabs/business-input/pull/106)).
+- **ESLint Configuration**: Updated linting rules and settings for better code quality and consistency. ([#104](https://github.com/VolkovLabs/business-input/pull/104))
+- **LLM Behavior & Plugin Handling**: Improved LLM functionality and added better error handling for cases when a plugin is not found. ([#106](https://github.com/VolkovLabs/business-input/pull/106))
+- **E2E Tests**: Adjusted end-to-end tests to resolve compatibility issues with the Main branch. ([#107](https://github.com/VolkovLabs/business-input/pull/107))
 
 ## [5.0.0] - 2025-07-21
 
@@ -18,7 +19,6 @@ All notable changes to **Business Input Data Source** will be documented in this
 ### Features & Enhancements
 
 - Updated to Grafana 12 and dependencies ([#103](https://github.com/VolkovLabs/business-input/pull/103)).
-- Update ESLint configuration ([#104](https://github.com/VolkovLabs/business-input/pull/104)).
 
 ## [4.5.0] - 2024-12-23
 
